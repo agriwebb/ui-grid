@@ -1,5 +1,5 @@
 /*!
- * ui-grid - v3.2.0-225-g756df76-33366f2 - 2017-01-19
+ * ui-grid - v3.2.0-225-g756df76-6d31287 - 2017-01-19
  * Copyright (c) 2017 ; License: MIT 
  */
 
@@ -28814,7 +28814,7 @@ angular.module('ui.grid').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('ui-grid/cellEditor',
-    "<div><form name=\"inputForm\"><input type=\"INPUT_TYPE\" ng-class=\"'colt' + col.uid\" ui-grid-editor ng-model=\"MODEL_COL_FIELD\"></form></div>"
+    "<div><form name=\"inputForm\"><input type=\"INPUT_TYPE\" ng-class=\"'colt' + col.uid\" ui-grid-editor ignore-mouse-wheel ng-model=\"MODEL_COL_FIELD\"></form></div>"
   );
 
 
