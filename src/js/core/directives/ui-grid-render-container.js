@@ -68,7 +68,7 @@
             $elm.addClass('ui-grid-render-container-' + $scope.containerId);
 
             // Scroll the render container viewport when the mousewheel is used
-            gridUtil.on.mousewheel($elm, function (event) {
+/*            gridUtil.on.mousewheel($elm, function (event) {
               var scrollEvent = new ScrollEvent(grid, rowContainer, colContainer, ScrollEvent.Sources.RenderContainerMouseWheel);
               if (event.deltaY !== 0) {
                 var scrollYAmount = event.deltaY * -1 * event.deltaFactor;
@@ -118,7 +118,7 @@
               }
 
             });
-
+*/
             $elm.bind('$destroy', function() {
               $elm.unbind('keydown');
 
